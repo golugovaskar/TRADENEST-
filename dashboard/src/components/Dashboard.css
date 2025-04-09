@@ -1,0 +1,59 @@
+/* Base desktop layout remains unchanged */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+/* 👇 Zerodha-style responsiveness for mobile */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .watchlist {
+    order: 1;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .content {
+    order: 2;
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .watchlist table {
+    width: 100%;
+    min-width: 600px; /* Make the table horizontally scrollable if needed */
+  }
+
+  .content table {
+    width: 100%;
+    min-width: 800px;
+    overflow-x: auto;
+    display: block;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  /* Optional: Hide any large sidebars if added later */
+  .sidebar {
+    display: none;
+  }
+}
