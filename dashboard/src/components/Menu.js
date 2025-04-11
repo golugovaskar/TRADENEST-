@@ -16,7 +16,7 @@ const Menu = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    window.location.href = "http://localhost:3001/";
+    window.location.href = "https://tradenest-72ak.onrender.com/";
   };
 
   const menuClass = "menu";
