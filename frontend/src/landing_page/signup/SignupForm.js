@@ -84,7 +84,8 @@ const SignupForm = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:3002/api/auth/signup', {
+      const res = await fetch('https://tradenest-backend-h1i5.onrender.com/api/auth/signup', {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
