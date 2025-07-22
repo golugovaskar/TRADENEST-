@@ -64,10 +64,10 @@ JWT_SECRET=your_jwt_secret
 
 ## 📸 Screenshots
 
-### 🔐 home page
+### 🔐 dahshboard page
 ![home page](frontend/public/media/images/homeHero.png)
 
-### 📊 Dashboard
+### 📊 signup page
 ![Dashboard](frontend/public/media/images/signup.png)
 
 ---
@@ -93,7 +93,9 @@ npm run dev
  ##  Author
 Golu Kumar
 📧 Email: prajaptigolu07@gmail.com
-🔗 GitHub: @golugovaskar
+🔗 GitHub: [@golugovaskar](https://github.com/golugovaskar)
+
+
 
 ---
 ## ⭐ Show Some Love
