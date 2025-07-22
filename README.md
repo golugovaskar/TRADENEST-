@@ -10,7 +10,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [Live Website](https://tradenest.onrender.com) (add actual link)
+🔗 [Live Website]("https://tradenest-72ak.onrender.com/)
 
 ---
 
@@ -46,25 +46,7 @@
 - 🔒 JWT for authentication
 - 🗂️ Multer for file handling
 
----
 
-## 📁 Folder Structure
-
-TRADENEST/
-├── frontend/ # React frontend
-├── backend/ # Express backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── uploads/
-│ ├── resumes/
-│ └── user.controller.js, post.controller.js
-├── dashboard/ # (Optional: admin or analytics panel)
-└── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -75,13 +57,18 @@ Create a `.env` file inside `/backend`:
 PORT=9090
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
 
-yaml
-Copy
-Edit
+
+
+---
+
+## 📸 Screenshots
+
+### 🔐 home page
+![home page](frontend/public/media/images/homeHero.png)
+
+### 📊 Dashboard
+![Dashboard](frontend/public/media/images/signup.png)
 
 ---
 
@@ -93,77 +80,23 @@ Edit
 cd backend
 npm install
 npm start
-Runs on: http://localhost:9090
-
-Frontend
-bash
-Copy
-Edit
+```
+### Frontend
 cd frontend
 npm install
 npm run dev
-Runs on: http://localhost:5173
 
-📸 Screenshots
-(Add your own screenshots here)
 
-✅ Login/Register page
 
-✅ Dashboard
+ ---
 
-✅ Post creation
-
-✅ Profile edit
-
-✅ Resume download preview
-
-🧠 Learning Highlights
-How to handle authentication using JWT in full-stack apps
-
-How to connect MongoDB Atlas with Express backend
-
-Image upload using Cloudinary
-
-Resume creation using PDFKit
-
-Working with Redux Toolkit and private routes
-
-Professional UI using Tailwind
-
-📌 Future Improvements
-⏱️ Real-time stock tracking using WebSockets / APIs
-
-📈 Graphs and financial insights using Chart.js
-
-🔎 Search & filter for users and posts
-
-📬 Notification system
-
-🙋‍♂️ About Me
+ ##  Author
 Golu Kumar
 📧 Email: prajaptigolu07@gmail.com
 🔗 GitHub: @golugovaskar
 
-⭐ Show Some Love
+---
+## ⭐ Show Some Love
 If you like this project, please consider giving it a ⭐ on GitHub. It really helps!
 
 "Code. Build. Connect. Repeat." 💻🚀
-
-markdown
-Copy
-Edit
-
----
-
-### ✅ What you should do now:
-
-1. Paste this `README.md` into your `TRADENEST-` repo.
-2. Replace:
-   - `Live Website` link with your actual deployed site.
-   - Add some UI screenshots for better impression.
-3. Let me know if you want:
-   - A banner/header image with your name
-   - Badges like `Made with MERN`, `Deployed on Render`
-   - Dark/light theme toggle instructions
-
-Ready for next README or profile polishing? 😎
