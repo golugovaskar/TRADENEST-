@@ -10,7 +10,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [Live Website]("https://tradenest-72ak.onrender.com/)
+🔗 [Live Website](https://tradenest-72ak.onrender.com/)
 
 ---
 
